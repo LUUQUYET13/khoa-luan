@@ -1,0 +1,11 @@
+function kiemTraChanLe(n) {
+    if (n % 2 === 0) {
+        return "Số chẵn";
+    } else {
+        return "Số lẻ";
+    }
+}
+
+let n = Number("Nhập số n:");
+
+console.log(kiemTraChanLe(n));
